@@ -1,0 +1,350 @@
+*{
+    background: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: relative;
+    ::selection{
+        color: #00feb2;
+    }
+}
+                                                            /*  */
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95.4%;
+    height: 45px;
+    text-align: center;
+    margin: 20px;
+}
+.logo{
+    color: #63E6BE ;
+    display: flex;
+    font-size: larger;
+    margin-left: 80px;
+}
+.p{
+    color: #fff;
+    font-size: 7px;
+    margin-right: 100px;
+    position: absolute;
+    left: 87px;
+    top: 37px;
+    letter-spacing: 3px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav li{
+    margin-right: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+                                                            /*  */
+
+.main{
+    width: 100%;
+    height: 510px;
+    background-image: linear-gradient(to right, black 370px, #63e6be45);
+}
+.main div img{
+    width: 500px;
+    height: 510px;
+    position: absolute;
+    background: none;
+    right: 0px;
+    top: 0px;
+    filter: opacity(0.9);
+}
+.main div h6{
+    color: rgb(99, 230, 190);
+    position: absolute;
+    left: 103px;
+    top: 80px;
+    letter-spacing: 3px;
+    background: none;
+}
+.main .pp{
+    background: none;
+}
+.main div  p{
+    color: #fff;
+    width: 495px;
+    position: relative;
+    left: 100px;
+    top: 95px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: none;
+}
+.smallborder{
+    border-bottom: solid rgb(99, 230, 190) 1.5px;
+    width: 72px;
+    position: absolute;
+    left: 100px;
+    top: 242px;
+}
+
+.lorem1{
+    background: none;
+    color: darkgray;
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    top: 148px;
+}
+.main div .lorem1 p{
+    color: darkgray;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.circle{
+    background-color: #00f5ac;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    bottom: 100px;
+    box-shadow: 0px 0px 9px 3px #8dffdd;
+}
+.triangle{
+    background: none;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    left: 13px;
+    top: 14px;
+    transform: rotate(90deg);
+}
+.main div .about{
+    color: #fff;
+    background: none;
+    border: none;
+    width: 98px;
+    height: 0px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 69px;
+    top: 16px;
+}
+.main div .studio{
+    background: none;
+    color: #63E6BE;
+    width: 123px;
+    height: 0px;
+    font-size: 14px;
+    position: absolute;
+    left: 69px;
+    top: 79px;
+}
+                                                            /*  */
+
+.section{
+    background-color: #000;
+    /* width: auto; */
+    height: 430px;
+}
+.title2{
+    color: #63E6BE;
+    background: none;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.h22{
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    font-size: 40px;
+}
+.smallborder1{
+    border-bottom: solid rgb(99, 230, 190) 1.5px;
+    width: 72px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.section p{
+    background: none;
+}
+.section .lorem2{
+    color: darkgray;
+    background: none;
+    position: absolute;
+    left: 100px;
+    top: 173px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.section .view{
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+    background-color: #63E6BE;
+    color: #fff;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 3px #8dffdd;
+}
+.section .view a{
+    text-decoration: none;
+    color: #fff;
+    background: none;
+}
+
+
+.section .right{
+    background-color: #0f0f0ecf;
+    width: 195px;
+    height: 180px;;
+    position: absolute;
+    left: 640px;
+    top: 45px;
+
+}
+.section .img{
+    background-color: #000;
+    position: absolute;
+    left: 73px;
+    top: 20px;
+}
+.section .brand h3{
+    color: #fff;
+    background: none;
+    position: absolute;
+    right: 33px;
+    top: 84px;
+}
+.section .brand p{
+    color: darkgray;
+    position: absolute;
+    right: 16px;
+    top: 117px;
+    font-size: 11px;
+}
+
+.section .right2{
+    background-image: linear-gradient(180deg, black 10%, #8dffdd2b);
+    width: 195px;
+    height: 180px;;
+    position: absolute;
+    left: 640px;
+    top: 234px;
+}
+.section .img2{
+    background-color: #000;
+    position: absolute;
+    left: 73px;
+    top: 17px;
+}
+.section .brand2 h3{
+    color: #fff;
+    background: none;
+    position: absolute;
+    right: 30px;
+    top: 83px;
+}
+.section .brand2 p{
+    color: darkgray;
+    position: absolute;
+    right: 16px;
+    top: 116px;
+    font-size: 11px;
+}
+
+.section .right3{
+    background-image: linear-gradient(180deg, black 10%, #8dffdd2b);
+    width: 195px;
+    height: 180px;;
+    position: absolute;
+    left: 850px;
+    top: 65px;
+}
+.section .img3{
+    background-color: #000;
+    position: absolute;
+    left: 73px;
+    top: 17px;
+}
+.section .brand3 h3{
+    color: #fff;
+    background: none;
+    position: absolute;
+    right: 30px;
+    top: 83px;
+}
+.section .brand3 p{
+    color: darkgray;
+    position: absolute;
+    right: 16px;
+    top: 116px;
+    font-size: 11px;
+}
+
+.section .right4{
+    background-color: #0f0f0ecf;
+    width: 195px;
+    height: 177px;;
+    position: absolute;
+    left: 850px;
+    top: 254px;
+}
+.section .img4{
+    background-color: #000;
+    position: absolute;
+    left: 73px;
+    top: 20px;
+}
+.section .brand4 h3{
+    color: #fff;
+    background: none;
+    position: absolute;
+    right: 33px;
+    top: 84px;
+}
+.section .brand4 p{
+    color: darkgray;
+    position: absolute;
+    right: 16px;
+    top: 117px;
+    font-size: 11px;
+}
+
+/* .right22{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+}
+.section2 div .about2{
+    color: #8dffdd;
+    background: none;
+    width: 98px;
+    height: 0px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 640px;
+    top: 160px;
+}
+.section2 div .we2{
+    color: #fff;
+    background: none;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+} */
+
+
