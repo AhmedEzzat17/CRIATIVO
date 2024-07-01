@@ -51,12 +51,12 @@
     background-image: linear-gradient(to right, black 370px, #63e6be45);
 }
 .main div img{
-    width: 500px;
-    height: 510px;
+    width: 505px;
+    height: 560px;
     position: absolute;
     background: none;
     right: 0px;
-    top: 0px;
+    top: -5px;
     filter: opacity(0.9);
 }
 .main div h6{
@@ -324,10 +324,10 @@
     font-size: 11px;
 }
 
-/* .right22{
+.right22{
     width: 100%;
     height: 600px;
-    background-color: #000;
+    background-color: #000000;
 }
 .section2 div .about2{
     color: #8dffdd;
@@ -343,8 +343,81 @@
     color: #fff;
     background: none;
     position:absolute;
-    left: 10px;
+    left: 640px;
+    top: 190px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.smallborder2{
+    border-bottom: solid rgb(99, 230, 190) 1.5px;
+    width: 72px;
+    position: absolute;
+    left: 640px;
+    top: 295px;
+}
+.lorem3{
+    color: darkgray;
+    background: none;
+    position: absolute;
+    left: 640px;
+    top: 310px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.lorem3 p{
+background: none;
+}
+.white_girl img{
+    background: none;
+    height: 485px;
+    width: 405px;
+    position: absolute;
+    left: 185px;
+    top: 116px;
+}
+.Clean-Code{
+    background: none;
+    position: absolute;
+    left: 700px;
+    top: 373px;
+    color: white;
+    line-height: 35px;
+}
+.Clean-Code img{
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    position: absolute;
+    left: -60px;
     top: 10px;
-} */
-
-
+}
+.Clean-Code p{
+    background: none;
+    color: darkgray;    
+    font-size: 12px;
+    line-height: 20px;
+}
+.modern-design{
+    background: none;
+    position: absolute;
+    right: 100px;
+    top: 373px;
+    color: white;
+    line-height: 35px;
+}
+.modern-design img{
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    position: absolute;
+    left: -60px;
+    top: 10px;
+}
+.modern-design p{
+    background: none;
+    color: darkgray;    
+    font-size: 12px;
+    line-height: 20px;
+}
